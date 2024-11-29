@@ -1,0 +1,91 @@
+body {
+    font-family: sans-serif;
+}
+
+h1 {
+    text-align: center;
+    text-decoration: underline;
+    color: rgb(184, 0, 101);
+}
+
+h2 {
+    color: rgb(184, 0, 101);
+}
+
+#description::first-letter {
+    font-size: 2.3em;
+    float: left;
+    margin-right: 2px;
+    line-height: 34px;
+}
+
+p {
+    width: 40em !important;
+    line-height: 17px;
+}
+
+table {
+    border-collapse: collapse;
+}
+
+td,
+th {
+    width: 10em;
+    height: 3em;
+    text-align: center;
+    border: 1px solid black;
+    /* Add borders for clarity */
+}
+
+thead th:first-child {
+    background-color: white;
+}
+
+tbody tr:nth-child(even) {
+    background-color: rgb(114, 114, 114);
+    color: white;
+}
+
+tbody tr:nth-child(odd) {
+    background-color: rgb(233, 233, 233);
+}
+
+/* Make all hyperlinks un-underlined and have a blue border */
+a:not(:visited) {
+    text-decoration: none;
+    border: 2px solid blue;
+    padding: 2px;
+}
+
+:visited {
+    border-color: red !important;
+}
+
+#ul {
+    padding: 1px 0px;
+    width: 200pt;
+    background-color: lightgray;
+}
+
+#img{
+    position: fixed;
+    bottom: 10px;
+    right:10px;
+    width: 150px !important;
+    height: 150px !important;
+}
+
+#img:hover {
+    position: fixed;
+    top: 10px;
+    left:10px;
+  }
+  
+  ol:hover{
+    font-style: italic;
+  }
+  
+table td:not(:first-child):hover {
+    background-color: rgb(255, 63, 165); /* Example background color */
+    color: white; /* Example text color */
+  }
